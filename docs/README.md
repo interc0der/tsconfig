@@ -74,8 +74,8 @@ To build with this base typescript configuration, use extending within the tscon
 Please consider donating if you think docsify is helpful to you or that my work is valuable. I am happy if you can help me [buy a cup of coffee](). :heart:
 
 <div align="center">
-    <a href="">
-        <img src='https://github.com/interc0der/tsconfig/blob/main/docs/_media/xrpl-github-button.svg' style="width: 125px" width="200"> 
+    <a href="https://bithomp.com/explorer/rp1kWYztSkPZ2ULBUMCdhUDzDFhR891hcd">
+        <img src='https://github.com/interc0der/tsconfig/blob/main/docs/_media/xrpl-github-button.svg' style="width: 200px" width="200"> 
     </a>
 
 rp1kWYztSkPZ2ULBUMCdhUDzDFhR891hcd
@@ -84,7 +84,7 @@ rp1kWYztSkPZ2ULBUMCdhUDzDFhR891hcd
 
 <div align="center">
     <a href="https://xumm.app/detect/request:rp1kWYztSkPZ2ULBUMCdhUDzDFhR891hcd">
-        <img src='https://github.com/interc0der/tsconfig/blob/main/docs/_media/xumm-github-button.svg' style="width: 125px" width="200"> 
+        <img src='https://github.com/interc0der/tsconfig/blob/main/docs/_media/xumm-github-button.svg' style="width: 200px" width="200"> 
     </a>
 
 https://xumm.app/detect/request:rp1kWYztSkPZ2ULBUMCdhUDzDFhR891hcd
