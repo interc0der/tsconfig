@@ -1,19 +1,19 @@
-![logo](_media/icon.svg)
+![logo](_media/logo.svg)
 
-# gateway wallet <small>0.0.1</small>
+# tsconfig <small>0.0.1</small>
 
-> A digital wallet gateway for the XRP Ledger.
+> template for typescript compiler
 
-- Sign payments
-- View account balances
-- Xumm integration
+- Base tsconfig.json for other packages
+- Verbose breakdown of tsconfig parameters
+- Subdirectories with common templates
 
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Getting Started](#gateway-wallet)
+[GitHub](https://github.com/interc0der/tsconfig/)
+[Getting Started](#tsconfig)
 
 <!--
 
 ![](_media/bg.png)
  -->
 
-![color](#f0f0f0)
+![color](#ddddddff)
