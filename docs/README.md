@@ -6,7 +6,6 @@
 </p>
 
 <!-- Project Title -->
-<h1 align="center" style="text-align: center; margin:0px">tsconfig</h1>
 <p align="center" style="text-align: center; margin:0px">template for typescript compiler</p>
 
 <!-- Project Shields -->
