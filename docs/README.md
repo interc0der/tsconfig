@@ -1,5 +1,5 @@
 <!-- Project Logo -->
-<p align="center" style="text-align: center; margin:0px">
+<p id='tsconfig' align="center" style="text-align: center; margin:0px">
     <a href="">
         <img src='_media/banner-nuetral.svg' style="height: 125px"> 
     </a>
