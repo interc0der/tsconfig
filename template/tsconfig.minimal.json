@@ -1,0 +1,106 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Minimal",
+    "exclude": ["node_modules"],
+    "include": ["src/**/*", "types/**/*"],
+    "buildOptions": {},
+    "watchOptions": {
+    },
+    "typeAcquisition": {
+      "enable": true,
+      "include": [],
+      "exclude": [],
+      "disableFilenameBasedTypeAcquisition": false
+    },
+
+    "compilerOptions": {
+
+
+      "strict": true,
+
+      "module": "CommonJS",
+      "allowUmdGlobalAccess":false,
+      "baseUrl":"./",
+      "moduleResolution" : "node", 
+      "noResolve": false,
+      "paths": {},
+      "resolveJsonModule":true,
+      "rootDir":"./",
+      "types": ["jest", "node"],
+
+
+      "declaration": true,
+      "declarationDir": "dist/minimal/types",
+      "declarationMap": false,
+      "downlevelIteration": false,
+      "emitBOM":false,
+      "emitDeclarationOnly": false,
+      "importHelpers":false,
+      "importsNotUsedAsValues":"remove",            
+      "inlineSourceMap": false,
+      "inlineSources": false,
+      "mapRoot": "",
+      "newLine": "CRLF", 
+      "noEmit": false,
+      "noEmitHelpers": false,
+      "noEmitOnError": false,
+      "outDir": "dist/minimal/js",
+      "preserveConstEnums": false,
+      "preserveValueImports": false,
+      "removeComments": false,
+      "sourceMap": false,
+      "sourceRoot": "",
+      "stripInternal": false,
+
+
+      "allowJs": true,
+      "checkJs": true,
+      "maxNodeModuleJsDepth": 0,
+
+
+      "disableSizeLimit": false,
+
+
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop":true,
+      "forceConsistentCasingInFileNames":true,
+      "isolatedModules": false,
+      "preserveSymlinks": false,
+
+      "noImplicitUseStrict": false,
+      "noStrictGenericChecks": false,
+      "suppressExcessPropertyErrors": false,
+      "suppressImplicitAnyIndexErrors": false,
+
+
+      "target": "ES6",
+      "useDefineForClassFields": false,
+
+      "diagnostics": true,
+      "explainFiles": false,
+      "extendedDiagnostics": false,
+      "generateCpuProfile": "profile.cpuprofile",
+      "listEmittedFiles": false,
+      "listFiles": false,
+      "traceResolution": false,
+
+
+      "composite": true,
+      "disableReferencedProjectLoad": false,
+      "disableSolutionSearching": false,
+      "disableSourceOfProjectReferenceRedirect":false,
+      "incremental": true,
+      "tsBuildInfoFile": "dist/minimal/tsbuildinfo",
+
+
+      "noErrorTruncation": false,
+      "preserveWatchOutput": false,
+      "pretty": true,
+
+   
+      "skipLibCheck": true,
+
+
+      "assumeChangesOnlyAffectDirectDependencies": true
+    }
+  }

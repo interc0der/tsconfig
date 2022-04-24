@@ -1,0 +1,59 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Legacy",
+    "exclude": ["node_modules"],
+    "include": ["src/**/*", "types/**/*"],
+
+    "compilerOptions": {
+      "strict": true,
+      "module": "CommonJS",
+      "allowUmdGlobalAccess":false,
+      "baseUrl":"./",
+      "moduleResolution" : "node", 
+      "paths": {},
+      "resolveJsonModule":true,
+      "rootDir":".",
+
+      "declaration": true,
+      "declarationDir": "dist/legacy/types",
+      "declarationMap": true,
+      "downlevelIteration": true,
+      "importHelpers":true,
+      "outDir": "dist/legacy/js",
+
+
+      "allowJs": true,
+      "checkJs": true,
+
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop":true,
+      "forceConsistentCasingInFileNames":true,
+      "isolatedModules": true,
+      "preserveSymlinks": false,
+
+
+      "noImplicitUseStrict": false,
+      "noStrictGenericChecks": false,
+      "suppressExcessPropertyErrors": false,
+      "suppressImplicitAnyIndexErrors": false,
+
+
+
+      "target": "ES3",
+      "useDefineForClassFields": false,
+
+
+      "diagnostics": true,
+      "listEmittedFiles": true,
+
+
+      "composite": true,
+
+
+      "preserveWatchOutput": false,
+      "pretty": true,
+
+
+      "skipLibCheck": true
+    }
+  }

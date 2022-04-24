@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React",
+  "exclude": ["node_modules"],
+  "include": ["src/**/*", "types/**/*"],
+  "buildOptions": {},
+  "watchOptions": {},
+  "typeAcquisition": {},
+
+  "compilerOptions": {
+    "module": "ESNext",
+
+    "strict": true,
+    "noImplicitAny":true,
+    "noImplicitReturns":true,
+    "moduleResolution":"Node",
+
+
+    "baseUrl":"./",
+    "declaration": true,
+    "allowJs": true,
+    "esModuleInterop":true,
+    "forceConsistentCasingInFileNames":true,
+
+    "outDir": "dist/react/build/js",
+
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
+    "jsxFragmentFactory": "React.Fragment",
+
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+
+    "target": "ESNext",
+
+
+    "composite": true,
+    "incremental": true,
+    "tsBuildInfoFile": "dist/react/build/tsbuildinfo",
+
+ 
+    "preserveWatchOutput": false,
+    "pretty": true,
+
+
+    "skipLibCheck": true,
+
+    "assumeChangesOnlyAffectDirectDependencies": true
+  }
+}

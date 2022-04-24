@@ -1,0 +1,48 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "unit testing for tsconfig project",
+  "main": "index.js",
+  "scripts": {
+    "jest": "jest",
+    "jest:class": "jest class.test.ts",
+    "jest:obj": "jest obj.test.ts",
+    "c": "tsc",
+    "test:base": "CONFIG_ENV=base node ./scripts/test.js && tsc && jest",
+    "test:legacy": "CONFIG_ENV=legacy node ./scripts/test.js && tsc && jest",
+    "test:react": "CONFIG_ENV=react node ./scripts/test.js && tsc && jest",
+    "test:minimal": "CONFIG_ENV=minimal node ./scripts/test.js && tsc && jest",
+    "test:goofy": "CONFIG_ENV=goofy node ./scripts/test.js && tsc && jest",
+    "test:verbose": "CONFIG_ENV=verbose node ./scripts/test.js && tsc && jest",
+    "test": "yarn clean && yarn test:base && yarn test:legacy && yarn test:react && yarn test:minimal && yarn test:goofy && yarn test:verbose",
+    "test:all": "yarn clean && CONFIG_ENV=all node ./scripts/test.js",
+    "clean": "node ./scripts/clean.js"
+  },
+  "scriptsComments": {
+    "c": "Compiles typescript",
+    "jest": "Runs test for code within /src with current tsconfig and types",
+    "test": "Runs test compile and unit test for all predefined configuration",
+    "test:all": "Runs test compiles and unit test for all configurations within ./config directory"
+  },
+  "keywords": [
+    "unit",
+    "testing",
+    "typescript",
+    "compile",
+    "jest"
+  ],
+  "author": "intercoder",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.25",
+    "dotenv": "^16.0.0",
+    "jest": "^27.5.1",
+    "path": "^0.12.7",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "typescript-eslint-language-service": "^5.0.0",
+    "typescript-styled-plugin": "^0.18.2"
+  }
+}

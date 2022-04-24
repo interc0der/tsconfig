@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Verbose",
+  "exclude": ["node_modules"],
+  "include": ["src/**/*", "types/**/*"],
+  "buildOptions": {},
+  "watchOptions": {
+    "watchFile": "useFsEvents",
+    "watchDirectory": "useFsEvents",
+    "fallbackPolling": "dynamicpriority",
+    "synchronousWatchDirectory": false,
+    "excludeDirectories": ["**/node_modules", "_build", "temp/*"],
+    "excludeFiles": ["temp/file.ts"]
+  },
+
+  "typeAcquisition": {
+    "enable": false,
+    "include": [],
+    "exclude": [],
+    "disableFilenameBasedTypeAcquisition": false
+  },
+
+  "compilerOptions": {
+    "module": "CommonJS",
+
+    "allowUnreachableCode": true,
+
+   
+    "allowUnusedLabels" : false,
+    "strict": true,
+    "alwaysStrict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny":true,
+    "noImplicitOverride":true,
+    "noImplicitReturns":true,
+    "noPropertyAccessFromIndexSignature":true,
+    "noUncheckedIndexedAccess":false,
+    "noUnusedLocals":true,
+    "noUnusedParameters":true,
+    "strictBindCallApply":true,
+    "strictFunctionTypes":true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+
+    "allowUmdGlobalAccess":false,
+    "baseUrl":"./",
+    "moduleResolution" : "node",
+    "noResolve": false,
+    "paths": {},
+    "resolveJsonModule":true,
+    "rootDir":"./",
+    "types": [
+      "node", 
+      "jest" 
+    ],
+
+    "declaration": true,
+    "declarationDir": "./dist/verbose/type",
+    "declarationMap": true,
+    "downlevelIteration": false,
+    "emitBOM":false,
+    "emitDeclarationOnly": false,
+    "importHelpers":false,
+    "importsNotUsedAsValues":"remove",                  
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "newLine": "CRLF",
+    "noEmit": false,
+    "noEmitHelpers": false,
+    "noEmitOnError": false,
+    "outDir": "dist/verbose/js",
+    "removeComments": false,
+    "sourceMap": true,
+    "stripInternal": false,
+
+
+    "allowJs": true,
+    "checkJs": true,
+    "maxNodeModuleJsDepth": 0,
+
+    "disableSizeLimit": false,
+    "plugins": [
+      { "name": "typescript-styled-plugin" }, 
+      { "name": "typescript-eslint-language-service" } 
+    ],
+
+
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop":true,
+    "forceConsistentCasingInFileNames":true,
+    "isolatedModules": true,
+    "preserveSymlinks": false,
+
+
+    "noImplicitUseStrict": false,
+    "noStrictGenericChecks": false,
+    "suppressExcessPropertyErrors": false,
+    "suppressImplicitAnyIndexErrors": false,
+
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": false,
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
+    "jsxFragmentFactory": "React.Fragment",
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+
+    "noLib": false,
+    "target": "ES6",
+    "useDefineForClassFields": false,
+
+
+    "diagnostics": true,
+    "explainFiles": true,
+    "extendedDiagnostics": false,
+    "generateCpuProfile": "profile.cpuprofile",
+    "listEmittedFiles": true,
+    "listFiles": false,
+    "traceResolution": false,
+
+
+    "composite": true,
+    "disableReferencedProjectLoad": false,
+    "disableSolutionSearching": false,
+    "disableSourceOfProjectReferenceRedirect":false,
+    "incremental": true,
+    "tsBuildInfoFile": "dist/verbose/tsbuildinfo",
+
+
+    "noErrorTruncation": true,
+    "preserveWatchOutput": false,
+    "pretty": true,
+
+
+    "skipLibCheck": true,
+
+    "assumeChangesOnlyAffectDirectDependencies": true
+  }
+}

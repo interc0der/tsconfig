@@ -1,3 +1,7 @@
+# ignore haters and demons
+haters/
+demons/
+
 # Logs
 logs
 *.log
