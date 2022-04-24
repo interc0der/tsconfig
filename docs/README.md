@@ -1,16 +1,16 @@
 <!-- Project Logo -->
-<p style="text-align: center;">
+<p align="center" style="text-align: center; margin:0px">
     <a href="">
-        <img src='docs/_media/icon.svg' style="width: 100px;height: 100px;"> 
+        <img src='_media/banner-nuetral.svg' style="height: 125px"> 
     </a>
 </p>
 
 <!-- Project Title -->
-<h1 style="text-align: center; margin:0px">tsconfig</h1>
-<p style="text-align: center; margin:0px">template for typescript compiler</p>
+<h1 align="center" style="text-align: center; margin:0px">tsconfig</h1>
+<p align="center" style="text-align: center; margin:0px">template for typescript compiler</p>
 
 <!-- Project Shields -->
-<p style="text-align: center;">
+<p align="center" style="text-align: center;">
     <a style="text-decoration:none" href="https://img.shields.io/npm/v/docsify-themeable.svg?style=flat-square">
         <img src="https://img.shields.io/npm/v/docsify-themeable.svg?style=flat-square">
     </a>
@@ -31,7 +31,9 @@
     </a>
 </p>
 
+<p align="center" style="text-align:center; margin:0px">
 Base configuration template for typescript compiling
+</p>
 
 - Create a [GitHub issue](https://github.com/interc0der/tsconfig/issues) for bug reports, feature requests, or questions
 - Follow [@interc0der](https://twitter.com/interc0der) for announcements
