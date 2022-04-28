@@ -71,7 +71,7 @@ To build with this base typescript configuration, use extending within the tscon
 
 ## Donate
 
-Please consider donating if you think docsify is helpful to you or that my work is valuable. I am happy if you can help me [buy a cup of coffee](). :heart:
+Please consider donating if you find my work is valuable. I am happy if you can help me [buy a cup of coffee](). :heart:
 
 <div align="center">
     <a href="https://bithomp.com/explorer/rp1kWYztSkPZ2ULBUMCdhUDzDFhR891hcd">
